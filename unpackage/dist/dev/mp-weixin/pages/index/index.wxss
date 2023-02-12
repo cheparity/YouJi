@@ -1,0 +1,75 @@
+
+.head-pic {
+	width: 100vh;
+	height: 400rpx;
+}
+.header-box {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.date-picker {
+	margin-bottom: 20rpx;
+}
+.crile {
+	width: 750rpx;
+	height: 50rpx;
+	position: absolute;
+	left: 0;
+	top: 355rpx;
+	z-index: 9;
+}
+.card-section {
+	position: relative;
+	width: 500rpx;
+	top: -70rpx;
+}
+.card-section uni-card {
+	width: 500rpx;
+}
+.sub-card-text {
+	font-size: x-large;
+}
+.footer {
+	position: relative;
+	top: -5vh;
+	flex-direction: row;
+	width: 80vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.footer image {
+	flex: auto;
+	height: 200rpx;
+}
+.wrap {
+	height: 400rpx;
+	width: 90%;
+	margin-bottom: 90rpx;
+}
+.wrap .swiper {
+	height: 100%;
+	width: 100%;
+}
+.navigator {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.banner-swiper-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+

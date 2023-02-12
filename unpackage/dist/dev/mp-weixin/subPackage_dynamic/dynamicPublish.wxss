@@ -1,0 +1,38 @@
+
+.album-content {
+	width: 100%;
+	height: calc(100vh - 0px - 0px);
+	font-size: 13px;
+}
+.operate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 8px;
+	margin: 20rpx
+}
+.operate_icon {
+	display: flex;
+	align-items: flex-end;
+}
+.head-input {
+	height: 300rpx;
+}
+.operate_icon image {
+	width: 20px;
+	height: 20px;
+}
+.operate_text {
+	font-size: 10px;
+}
+.paddingLR30 {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.paddingT20 {
+	padding-top: 20rpx;
+}
+.paddingB20 {
+	padding-bottom: 20rpx;
+}
+

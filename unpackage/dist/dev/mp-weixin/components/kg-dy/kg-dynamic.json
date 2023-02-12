@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cloud-image": "/uni_modules/uni-id-pages/components/cloud-image/cloud-image",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag"
+  }
+}

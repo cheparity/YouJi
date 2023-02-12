@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dynamic/dynamic",
+    "pages/ucenter/ucenter",
+    "pages/ucenter/about/about",
+    "pages/uni-agree/uni-agree",
+    "pages/ucenter/settings/settings",
+    "pages/common/webview/webview",
+    "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+    "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+    "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+    "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+    "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+    "uni_modules/uni-id-pages/pages/login/login-withpwd",
+    "uni_modules/uni-id-pages/pages/login/login-smscode",
+    "uni_modules/uni-id-pages/pages/register/register",
+    "uni_modules/uni-id-pages/pages/register/register-by-email",
+    "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+    "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+    "uni_modules/uni-id-pages/pages/common/webview/webview",
+    "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+    "uni_modules/uni-id-pages/pages/register/register-admin",
+    "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd"
+  ],
+  "subPackages": [
+    {
+      "root": "subPackage_dynamic",
+      "pages": [
+        "dynamicInfo",
+        "dynamicPublish"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "拾遗游记",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false,
+    "rpxCalcMaxDeviceWidth": 375,
+    "rpxCalcBaseDeviceWidth": 375
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "iconPath": "/static/tabbar-icons/index.png",
+        "selectedIconPath": "/static/tabbar-icons/index_s.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "/static/tabbar-icons/feeds.png",
+        "selectedIconPath": "/static/tabbar-icons/feeds_s.png",
+        "text": "动态",
+        "pagePath": "pages/dynamic/dynamic"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/tabbar-icons/me.png",
+        "selectedIconPath": "static/tabbar-icons/me_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请求授予位置信息"
+    }
+  },
+  "ignoreUploadUnusedFiles": false,
+  "ignoreDevUnusedFiles": false,
+  "usingComponents": {}
+}
