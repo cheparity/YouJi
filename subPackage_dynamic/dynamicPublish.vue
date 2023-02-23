@@ -1,8 +1,7 @@
 <template>
 	<view>
 		<view class="box-bg">
-			<uni-nav-bar style="margin-top: 10px;" shadow leftIcon="left" title="动态编辑" rightText="发表" @clickLeft="back"
-				@clickRight="publishDynamic()" />
+			<uni-nav-bar style="margin-top: 50rpx;" shadow title="动态编辑" rightText="发表" @clickRight="publishDynamic()" />
 		</view>
 		<view class="head-input">
 			<textarea auto-focus style="margin-left: 30rpx;margin-right: 30rpx;height:100%" @input="onKeyInput"

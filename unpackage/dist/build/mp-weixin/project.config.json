@@ -16,7 +16,8 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enhance": true
+    "enhance": true,
+    "uglifyFileName": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.30.0",

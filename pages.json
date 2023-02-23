@@ -1,4 +1,7 @@
 {
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
 	"pages": [{
 			"path": "pages/index/index",
 			"style": {
@@ -173,7 +176,8 @@
 				"path": "dynamicPublish",
 				"style": {
 					// "navigationBarTitleText": "发表动态",
-					"navigationStyle": "custom",
+					"navigationStyle": "default",
+					"navigationBarTitleText": "发表动态",
 					"enablePullDownRefresh": false
 				}
 			}
